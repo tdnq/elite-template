@@ -1,0 +1,16 @@
+.root{
+    font-size: 4rem;
+    text-shadow: 0 2px red;
+    &:fullscreen{
+        color: blue;
+    }
+    :global(.hello){
+        font-size: 4rem;
+    }
+    .test{
+        color: green;
+    }
+}
+.test{
+    color: red;
+}
